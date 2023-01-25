@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DZMMt6rzOmOYsAGyT2KYJXmpRKqLbB1OzJ06jrhpl+uCLQ9ZafgpT5x7np+d+rCmdng3csTyJ3aYB2Ezm4ciCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daniel Qhobosheane\\RiderProjects\\TransnetWebAPI\\TransnetWebAPI\\TransnetWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Daniel Qhobosheane\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
