@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xrM/Dn1r8hDi/1YYS8kWL+4iJAZekugbIt7d4X8m0/4=",
+  "Source": "TransnetWebAPI",
+  "BasePath": "_content/TransnetWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
