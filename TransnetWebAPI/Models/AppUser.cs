@@ -2,6 +2,6 @@
 
 public class AppUser
 {
-    public Guid Id { get; set; }
-    public string userName { get; set; }
+    public int Id { get; set; }
+    public string UserName { get; set; }
 }

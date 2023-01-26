@@ -1,28 +1,26 @@
-using Microsoft.EntityFrameworkCore;
 using TransnetWebAPI;
-using TransnetWebAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 var startup = new Startup(builder.Configuration);
 
-//calling ConfigureServices
-startup.ConfigureServices(builder.Services);
-
 // Add services to the container.
 
 builder.Services.AddControllers();
+startup.ConfigureServices(builder.Services);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-startup.Configure(app, builder.Environment);
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
 
 app.UseHttpsRedirection();

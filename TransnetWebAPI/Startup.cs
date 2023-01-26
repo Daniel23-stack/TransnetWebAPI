@@ -13,6 +13,8 @@ public class Startup
     }
     public void ConfigureServices(IServiceCollection services) {
         
+        services.AddRazorPages();
+        
         services.AddDbContext<DataBaseContext>(options =>
         {
             options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
